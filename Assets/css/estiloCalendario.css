@@ -1,0 +1,21 @@
+.nav_wrapper {
+   width:100%;
+   background: burlywood;
+   text-align: center;
+   
+}
+
+.nav-menu {
+   /*position:relative;*/
+   display:inline-block;
+}
+ 
+li {
+   display: inline;
+   list-style-type: none;
+}
+li:hover{
+}
+
+   
+   

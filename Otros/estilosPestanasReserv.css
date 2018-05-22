@@ -1,0 +1,61 @@
+body{
+    margin: auto; 
+    float: none;
+    width: 960px;   
+}
+
+.tab-pane{
+    padding: 20px;
+}
+.reservDiv1, .reservDiv2, .reservDiv3, .comboBox{
+    background:lightgray ;
+    height: 60px;
+    padding: 20px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+td{
+    height: 30px;
+    text-align: center;
+}
+th {
+    text-align: center;
+    
+}
+table {
+    border-spacing: 5px;
+}
+.tabla1 {
+    width: 100%; 
+    background: lightgray;
+}
+.divTabla1{
+    background:lightgray ;
+    height: calc;
+    padding: 20px;
+}
+.encabezadoTabla{
+    background: #66afe9;
+    
+}
+tr{
+    text-align: center;
+}
+.pestana2content{
+    background:lightgray ;
+    height: 60px;
+    padding: 20px;
+}
+.botonesCont2{
+    padding: 10px;
+}
+.btncont2{
+     border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 14px 60px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+    background-color: #2698db;
+}

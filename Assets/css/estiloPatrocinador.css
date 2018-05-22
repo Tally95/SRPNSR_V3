@@ -1,0 +1,352 @@
+body{
+    margin: auto; 
+    float: none;
+    width: 960px;
+}
+.col_1{    
+    width: 200px; 
+    float: left;
+}
+
+.col_2{
+    width: 560px;
+    height: 100px;
+    color: black;
+    float: left;
+ 
+}
+
+.col_3{  
+    width: 200px; 
+    float: left;    
+}
+
+.imgSinac,.imgAcg{
+    padding: 10%;
+} 
+
+.fila_1{    
+    background: olive;  
+    height: 150px;
+    float: top;
+}
+
+.fila_2{
+     background: #c0a16b;
+    height: 10px;
+    float: top;
+}
+
+.fila_3{
+    background: #543d2c;
+    height: 20px;
+    float: top;
+}
+
+/*.loginPat{
+    border: 3px;
+    background: linear-gradient(lightcyan 15%, burlywood 85%);
+    height: 355px;
+    float: top;
+    text-align: center;
+    padding-top: 10px;
+}
+.botonesLogin{
+    background:olive; 
+    border-radius: 5px; 
+    padding: 5px;  
+    padding-right: 20px; 
+    padding-left: 20px;
+    margin: 10px;
+}*/
+
+input{
+    
+   border-radius: 5px;
+   border:1px;
+   border-style: solid;
+   
+}
+.AdminitracionReserv, .vistazoCalen, .reportes, .admiPerfiles, .agregaPerfiles, .editaPerfiles, .cuerpoReservaciones-editar{
+    border: 3px;
+    background: linear-gradient(lightcyan 15%, burlywood 85%);
+/*    background: linear-gradient(to bottom, lightgray 0%, #81994d 100%);*/
+    height: auto;
+    float: top;
+    text-align: center;
+    padding-top: 10px;
+}
+.vistazoCalen{
+    height: 1000px;
+    
+}
+.AdminitracionReserv, .cuerpoReservaciones-editar{
+    height: auto;
+    padding: 10px;
+}
+.botonesCal{
+    background:#C19374;
+    border-radius: 7px;
+    border-bottom-style: groove;
+    height: 30px;
+    width: 90px;
+    text-align: center;
+    margin-left: 8px;
+}
+
+.Detalle{
+    max-height: 80px;
+    max-width: 310px;
+    min-height: 40px;
+    min-width: 310px;
+}
+
+.divDetalles{
+    margin: 10px;
+}
+
+.detallesInput{
+    width: 200px;
+    height: 20px;
+    margin: 5px;
+}
+
+.divServicios{
+    margin: auto;
+    margin-bottom: 30px;
+    border: 1px solid;
+    border-radius: 3px;
+    width: 400px;
+}
+.serviciosInput{
+    width: 200px;
+    height: 20px;
+    margin: 5px;
+}
+
+.nav_wrapper {
+   width:100%;
+   background: burlywood;
+   text-align: center;
+   
+}
+
+.nav-menu {
+   /*position:relative;*/
+   display:inline-block;
+}
+ 
+li {
+   display: inline;
+   list-style-type: none;
+}
+li:hover{
+}
+
+   
+   
+   
+   
+   
+   
+.btnAdmi {
+    border: 1px solid; /* Remove borders */
+    background: rosybrown;
+    color: black; /* Add a text color */
+    padding: 7px 30px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+
+.btnAdmi:hover{
+    background: pink;
+    border-color: black;
+}
+
+table {
+    border-spacing: 5px;
+    
+}
+.tablaAdmi {
+    width: 100%;
+    border-style: dashed;
+    background: lightgrey;
+    border-color: rosybrown;
+}
+.tdTabAdm{
+    border-style: solid;
+}
+.divTablaAdm{
+    background:lightgray ;
+    height: calc;
+    padding: 20px;
+}
+.cuerpoVistazo{
+    text-align: left;
+}
+#calendario, .tablaPerfiles{ 
+    border: 4px double black ; 
+    max-width: 750px; 
+    background: linear-gradient(lightcyan 15%, burlywood 85%); 
+    text-align: center;
+}
+
+
+.tablaPerfiles{ 
+    margin: auto;
+    border: 4px double black ; 
+    width: auto;
+    min-width: 900px;
+    background: linear-gradient(lightcyan 15%, burlywood 85%); 
+    text-align: center;
+}
+
+.contTablaPerfiles{
+    padding: 10px;
+}
+
+/*tabla del calendario*/
+#diasc { 
+    border: 1px solid black; 
+    border-collapse:separate; 
+    border-spacing: 4px; 
+}
+#diasc th,#diasc td { 
+    width: 190px; 
+    height: 80px; }
+#diasc th { 
+    color: black; background-color: olive; 
+}
+#diasc td { 
+    color: black; 
+    background-color: #C19374;
+}
+/*línea de la fecha actual*/
+#fechaactual { 
+    font: bold 12pt arial; padding: 0.4em 
+}
+#fechaactual i { 
+    cursor: pointer ; 
+}
+#fechaactual i:hover { color: blue; text-decoration: underline; }
+/*cabecera del calendario*/ 
+#anterior { float: left; width: 100px; font: bold 12pt arial;
+          padding: 0.5em 0.1em; cursor: pointer ; }
+#posterior { float: right; width: 100px; font: bold 12pt arial; 
+          padding: 0.5em 0.1em; cursor: pointer ;}
+#anterior:hover {color: blue;text-decoration: underline;}
+#posterior:hover {color: blue; text-decoration: underline;}
+#titulos { font: normal 20pt "arial black"; padding: 0.2em; }
+#fila1, #fila2, #fila3, #fila4, #fila5, #fila6{
+   height: 30px;
+}
+
+
+/*___________________________________________REPORTES______________________________________________*/
+.cuerpoReportes{
+    padding: 20px;
+    
+}
+.textAreaR{
+    padding: 60px;
+}
+.reportes{
+    height: 500px;
+}
+.botonesReportes{
+    background:#C19374;
+    border-radius: 7px;
+    border-bottom-style: groove;
+    height: 30px;
+    width: 170px;
+    text-align: center;
+    margin-left: 8px;
+}
+/*___________________________________________Agrega perfiles______________________________________________*/
+
+/*.agregarPerfcuerpo{
+    border: 4px double black ; 
+}*/
+.agregaPerfiles{
+    height: 470px;
+}
+.editaPerfiles{
+    padding: 50px;
+}
+.botonesPerfiles, .botonesAgregarPerfil, .botonesEditarPerfil{
+    background:#C19374;
+    border-radius: 7px;
+    border-bottom-style: groove;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    margin-left: 8px;
+}
+
+.pie{
+    background: olive;
+    height: 130px;
+    padding: 0.1px;
+
+    margin: auto;
+}
+
+
+/*___________________________________________Login______________________________________________*/
+.fila_4L{
+    background: linear-gradient(to bottom, lightgray 0%, #81994d 100%);
+    height: 355px;
+    float: top;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.cajaLoginL{
+    background: #543d2c;
+    width: 550px;
+    height: 325px;
+    margin: auto; 
+    border-radius: 0.2em;
+}
+
+.btnL {
+    font-family: Times New Roman;
+    font-size: 20px;
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 14px 60px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+
+.azulOL {
+    background-color: #2698db;
+    border-radius: 3px;
+} /* Green */
+
+.azulCL {
+    background-color: #45c7eb;
+    border-radius: 3px;
+} /* Green */
+
+.azulCL:hover {background-color: #68923d;}
+.azulOL:hover {background-color: #68923d ;}
+
+.form-group1L{
+  padding: 5px;    
+}
+
+.botonesIngresarL{
+    margin: 20px;
+}
+
+.inputL{
+  color: white;
+  background: none;
+  width: 325px; 
+  height: 25px;
+  border-radius: 0.4em;
+  border: 1px #ffffff solid;
+}
+
+.botonesLoginL {
+    padding: 10px;
+}
